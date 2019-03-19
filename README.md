@@ -1,5 +1,5 @@
 # AntiCaptchaComAPI
-Бесплатная C# библеотека для использования anti-captcha.com API
+Бесплатная C# библиотека для использования anti-captcha.com API
 <hr>
 <h2>Использование</h2>
       Добавьте ссылку на AntiCaptchaComAPI.dll и подлючите, используя "using AntiCaptchaComAPI"
