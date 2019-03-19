@@ -1,10 +1,10 @@
 # AntiCaptchaComAPI
 Бесплатная C# библеотека для использования anti-captcha.com API
 <hr>
-<h1>Использование</h1>
+<h2>Использование</h2>
       Добавьте ссылку на AntiCaptchaComAPI.dll и подлючите, используя "using AntiCaptchaComAPI"
 <hr>
-<h1>Пример работы</h1>
+<h2>Пример работы</h2>
 
             const string clientKey = "dsaf3gfh4esdsgh4j5ergs"; //ClientKey, полученный на сайте.
 
@@ -30,5 +30,5 @@
             }
           
 <hr>
- <h1>Контакты</h1>
+ <h2>Контакты</h2>
 https://vk.com/hors999
