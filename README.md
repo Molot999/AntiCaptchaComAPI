@@ -14,7 +14,7 @@
             ImageToTextTask newTask = new ImageToTextTask(base64Img); //Для начала необходимо создать объект определенной задачи
             CaptchaTask captchaTask = new CaptchaTask(clientKey, newTask); //И поместить его в объект CaptchaTask, выставив в конструкторе класса необходимые настройки.
 
-           CaptchaTaskStatus taskStatus = Captcha.CreateTask(captchaTask); //Метод CreateTask посылает объект задачи к API и возвращает объект типа CaptchaTaskStatus с информацией об ошибкаъ и порядковом номере задания (если оно было принято).
+           CaptchaTaskStatus taskStatus = Captcha.CreateTask(captchaTask); //Метод CreateTask посылает объект задачи к API и возвращает объект типа CaptchaTaskStatus с информацией об ошибках и порядковом номере задания (если оно было принято).
 
             while (true) //Помещаем метод GetTaskResult в цикл, чтобы отследить статус выполнения задачи и получить результат, когда оно будет готово.
             {
